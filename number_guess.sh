@@ -54,4 +54,4 @@ do
 done
 
 # Persist the final match telemetry parameters directly into the schema record
-INSERT_GAME_RESULT=$($PSQL "INSERT INTO games(user_id, number_of_guesses) VALUES($USER_ID, $GUESS_COUNT);")
+INSERT_GAME_RESULT=$($PSQL "INSERT INTO games(user_id, number_of_guesses) VALUES($USER_ID, $GUESS_COUNT);")# Database tracking initialized
